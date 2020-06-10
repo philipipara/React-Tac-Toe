@@ -1,3 +1,8 @@
+Simple Tic Tac Toe game. Next update will have fix the if game has no winner
+Deploy: https://infallible-bassi-cc7a10.netlify.app
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
