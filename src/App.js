@@ -15,6 +15,9 @@ const itemArray = new Array(9).fill("empty");
 
 const App = () => {
 
+  const [cardColor, setCardColor] = useState(
+    "#FF0000"
+  )
   const [isCross, setIsCross] = useState(false);
   const [winMessage, setWinMessage] = useState("");
 
@@ -99,6 +102,7 @@ const App = () => {
      if(itemArray[itemNumber] === "empty") {
         itemArray[itemNumber] = isCross ? "cross" : "circle";
         setIsCross(!isCross);
+        setCardColor("info")
      } else {
        return toast("already filled", { type: "error"});
      }
@@ -127,7 +131,7 @@ const App = () => {
             )}
             <div className="grid">
               {itemArray.map((item, index) => (
-                <Card color="info" onClick={() => changeItem(index)}>
+                <Card color={cardColor} onClick={() => changeItem(index)}>
                   <CardBody className="box">
                     <Icon name={item}/>
                   </CardBody>
