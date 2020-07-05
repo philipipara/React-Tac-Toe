@@ -1,5 +1,5 @@
 * Simple Tic Tac Toe game. 
-*Next update will have fix the if game has no winner. UPDATED to fix no Winner
+* Next update will have fix the if game has no winner. UPDATED to fix no Winner
 * Deploy: https://infallible-bassi-cc7a10.netlify.app
 
 
