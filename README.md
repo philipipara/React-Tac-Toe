@@ -10,6 +10,10 @@ until there is a winner or becomes a tie which then you can reload the game.
 
  ![Tick Tac Toe](https://github.com/philipipara/React-Tac-Toe/blob/master/sample.png)
 
-<h2>To use the Application first download using git clone</h2>
+<h2>To use the Application</h2>
+* Git Clone 
+* Cd into React-Tac-Toe directory
+* Npm install
+* Npm start
 
 
