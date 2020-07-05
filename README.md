@@ -12,7 +12,7 @@ until there is a winner or becomes a tie which then you can reload the game.
 
 <h2>To use the Application</h2>
 
-* Git Clone repostiory.
+* Git Clone git@github.com:philipipara/React-Tac-Toe.git.
 * Cd into React-Tac-Toe directory.
 * Npm install.
 * Npm start.
