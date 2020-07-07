@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
+
 import Icon from "./components/Icon";
 
 import { ToastContainer, toast } from "react-toastify";
@@ -100,7 +100,7 @@ const App = () => {
      if(itemArray[itemNumber] === "empty") {
         itemArray[itemNumber] = isCross ? "cross" : "circle";
         setIsCross(!isCross);
-        setCardColor("warning")
+        
      } else {
        return toast("already filled", { type: "error"});
      }
@@ -124,7 +124,8 @@ const App = () => {
               </div>
             ) : (
               <h1 className="text-center text-warning">
-                {isCross ? "Cross" : "Circle"} turn
+                {isCross ? "Cross" 
+                : "Circle"} turn
               </h1>
             )}
             <div className="grid">
